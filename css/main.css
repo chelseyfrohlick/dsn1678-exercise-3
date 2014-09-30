@@ -88,10 +88,16 @@ body {
   display:none;
   background-color: #000;
   border-radius: 6px;
+  opacity: 5;   
 }
 
+
+								  
+
 .sales__details[data-state="active"]{
-	display:block;	
+	display:block;
+	opacity: 100;
+	transition: opacity 2000ms linear;	
 }
 
 .sales__details::before {
